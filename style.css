@@ -1,0 +1,29 @@
+#body{
+    transition: 0.5s;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 3px solid black;
+    height: 80vh;
+  }
+.bottom{
+    flex: 1;
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.buttons{
+    justify-content:center;
+    display: flex;
+}
+.modes{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
